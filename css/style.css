@@ -126,6 +126,7 @@ figure {
     height: 150px;
     margin: 0 auto;
     margin-bottom: 30px;
+    border: 2px solid #fff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -466,17 +467,22 @@ body.offcanvas {
   font-weight: 500; }
 
 .hire {
-  padding: 2em;
+  padding: 4em;
+  padding-top: 2em;
   background: #ededed; }
   .hire h2 {
     line-height: 1.5;
-    color: #000; }
+    color: #000;
+    text-align: center; }
   .hire .btn-hire {
     color: #000;
     text-transform: uppercase;
     letter-spacing: 1px;
     bordeR: 1px solid #000;
     padding: 2px 10px; }
+  @media screen and (max-width: 900px) {
+    .hire .col-md-4 {
+      padding-top: 2em; } }
 
 .fancy-collapse-panel .panel-default > .panel-heading {
   padding: 0; }
@@ -553,7 +559,7 @@ body.offcanvas {
   content: '';
   position: absolute;
   display: block;
-  width: 4px;
+  width: 2px;
   background: #2d2d2c;
   top: 20px;
   bottom: 20px;
@@ -850,7 +856,7 @@ body.offcanvas {
     height: 100px;
     display: table;
     text-align: center;
-    background: #2d2d2c;
+    background: #ededed;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -867,6 +873,8 @@ body.offcanvas {
   .portfolio-feature .portfolio-text {
     padding-left: 120px;
     width: 100%; }
+    .portfolio-feature .portfolio-text p a {
+      color: #000; }
     .portfolio-feature .portfolio-text h2, .portfolio-feature .portfolio-text h3 {
       margin: 0;
       padding: 0; }
@@ -880,7 +888,7 @@ body.offcanvas {
   .portfolio-feature.portfolio-feature-sm .portfolio-text {
     margin-top: 30px; }
   .portfolio-feature.portfolio-feature-sm .portfolio-icon i {
-    color: #fff;
+    color: #2d2d2c;
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .portfolio-feature.portfolio-feature-sm .portfolio-icon i {
@@ -969,7 +977,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #fff;
+    background: #2d2d2c;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -1295,7 +1303,7 @@ body.offcanvas {
   box-shadow: none;
   background: transparent;
   border: transparent;
-  background: #2d2d2c;
+  background: #ededed;
   height: 54px;
   font-size: 16px;
   font-weight: 400;

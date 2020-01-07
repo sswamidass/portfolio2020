@@ -272,6 +272,7 @@ figure {
 		height: 150px;
 		margin: 0 auto;
 		margin-bottom: 30px;
+		border: 2px solid $brand-white;
 		@include border-radius(50%);
 	}
 	.position{
@@ -658,12 +659,14 @@ body {
 	}
 }
 .hire{
-	padding: 2em;
+	padding: 4em;
+	padding-top: 2em;
 	background: $progress-bg;
 
 	h2{
 		line-height: 1.5;
 		color: $brand-black;
+		text-align: center;
 	}
 	.btn-hire{
 		color: $brand-black;
@@ -672,6 +675,13 @@ body {
 		bordeR: 1px solid $brand-black;
 		padding: 2px 10px;
 	}
+	@media screen and(max-width: 900px){
+		.col-md-4{
+		padding-top: 2em;
+	}
+
+	}
+
 }
 
 
@@ -760,7 +770,7 @@ body {
   content: '';
   position: absolute;
   display: block;
-  width: 4px;
+  width: 2px;
   background: $brand-gray;
   top: 20px;
   bottom: 20px;
@@ -1146,7 +1156,7 @@ margin-left: -20px;
 		height: 100px;
 		display: table;
 		text-align: center;
-		background: $brand-gray;
+		background: $progress-bg;
 		@include border-radius(2px);
 		i {
 			display: table-cell;
@@ -1162,6 +1172,9 @@ margin-left: -20px;
 	.portfolio-text {
 		padding-left: 120px;
 		width: 100%;
+		p a{
+			color: $brand-black;
+		}
 		h2, h3 {
 			margin: 0;
 			padding: 0;
@@ -1181,7 +1194,7 @@ margin-left: -20px;
 		}
 		.portfolio-icon {
 			i {
-				color: $brand-primary;
+				color: $brand-gray;
 				font-size: 40px;
 				@media screen and (max-width: $screen-lg) {
 					font-size: 28px;
@@ -1298,7 +1311,7 @@ margin-left: -20px;
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background: $brand-primary;
+		background: $brand-gray;
 		opacity: 0;
 		@include transition(.3s);
 		.con{
@@ -1665,7 +1678,7 @@ margin-left: -20px;
 	box-shadow: none;
 	background: transparent;
 	border: transparent;
-	background: $brand-gray;
+	background: $progress-bg;
 	height: 54px;
 	font-size: 16px;
 	font-weight: 400;
