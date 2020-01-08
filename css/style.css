@@ -29,6 +29,13 @@
 *	Edit this section
 *
 * ======================================================= */
+#case-study {
+  background-color: #2d2d2c;
+  color: #fff; }
+
+#case-study .portfolio-heading {
+  color: #fff; }
+
 body {
   font-family: "gravityregular", sans-serif;
   font-weight: 400;
@@ -50,6 +57,9 @@ a {
     color: #fff;
     outline: none;
     text-decoration: none !important; }
+
+#case-study section {
+  padding: 2em; }
 
 p {
   margin-bottom: 1.5em; }
@@ -410,7 +420,7 @@ body.offcanvas {
 .portfolio-services,
 .portfolio-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  padding-bottom: 4em;
   clear: both;
   width: 100%;
   display: block; }
@@ -425,6 +435,9 @@ body.offcanvas {
     .portfolio-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }
+
+.portfolio-contact .btn-primary {
+  background: #2d2d2c; }
 
 .author-img {
   background-size: cover;
@@ -514,7 +527,7 @@ body.offcanvas {
   border: none; }
 
 .panel-heading a:after {
-  font-family: "gravityregular";
+  font-family: "icomoon";
   content: "\e115";
   position: absolute;
   right: 20px;
