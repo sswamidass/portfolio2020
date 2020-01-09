@@ -203,9 +203,16 @@ a {
 		text-decoration: none !important;
 	}
 }
-#case-study section{
+#case-study p, #case-study .about-desc{
 	padding: 2em;
 }
+#case-study .intro-desc{
+	text-align: center;
+	}
+
+	.r360{
+		    margin-bottom: 5em;
+	}
 p {
 	margin-bottom: 1.5em;
 }
