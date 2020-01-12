@@ -307,6 +307,14 @@ figure {
   animation-iteration-count: infinite;
   animation-name: arrow; }
 
+#case-study-tirerack .arrow {
+  border-right: 2px #252525 solid;
+  border-bottom: 2px #252525 solid; }
+
+#case-study-tirerack .arrow:before {
+  border-right: 1px #252525 solid;
+  border-bottom: 1px #252525 solid; }
+
 @keyframes arrow {
   0% {
     opacity: 1; }
@@ -483,6 +491,9 @@ body.offcanvas {
 .portfolio-contact .btn-primary {
   background: #2d2d2c; }
 
+.portfolio-feature p {
+  font-size: 11px; }
+
 .author-img {
   background-size: cover;
   background-position: center center;
@@ -628,6 +639,8 @@ body.offcanvas {
   margin-left: 30px;
   margin-bottom: 10px;
   clear: both; }
+  .timeline-centered .timeline-entry p {
+    font-size: 12px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner {
   position: relative;
@@ -1087,17 +1100,14 @@ body.offcanvas {
       .project .desc span a {
         color: #000; }
     @media screen and (max-width: 768px) {
-      .project .desc {
-        opacity: 1;
-        background: rgba(0, 0, 0, 0.4); }
-        .project .desc h3 {
-          font-style: 28px;
-          -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-          color: #000; }
-        .project .desc span {
-          -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0); } }
+      .project .desc h3 {
+        font-style: 28px;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        color: #000; }
+      .project .desc span {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0); } }
   .project:hover .desc {
     opacity: 1; }
     .project:hover .desc h3 {
