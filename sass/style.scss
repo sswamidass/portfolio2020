@@ -174,11 +174,11 @@ $form-group-margin-bottom: 30px !default;
 * ======================================================= */
 
 // Template Base
-#case-study{
+#case-study-r360{
 	background-color: $brand-gray;
 	color: $brand-white;
 }
-#case-study .portfolio-heading {
+#case-study-r360 .portfolio-heading {
 	color: $brand-white;
 }
 
@@ -203,10 +203,11 @@ a {
 		text-decoration: none !important;
 	}
 }
-#case-study p, #case-study .about-desc{
+#case-study-r360 p, #case-study-r360 .about-desc, 
+#case-study-tirerack p, #case-study-tirerack .about-desc{
 	padding: 2em;
 }
-#case-study .intro-desc{
+#case-study-r360 .intro-desc, #case-study-tirerack .intro-desc{
 	text-align: center;
 	}
 
@@ -451,7 +452,7 @@ figure {
 .arrow {
   width: 40px;
   height: 40px;
-  top: 50%;
+  top: 108%;
   margin: -20px 0 0 -20px;
   -webkit-transform: rotate(130deg);
   border-left: none;
@@ -658,16 +659,18 @@ body {
 .portfolio-about,
 .portfolio-services,
 .portfolio-contact{
-	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 	clear: both;
 	width: 100%;
 	display: block;
 	@media screen and(max-width: $screen-sm){
-		padding-top: 5em;
-		padding-bottom: 8em;
+		padding-top: 2em;
+		padding-bottom: 2em;
 	}
 }
+
+
 
 .portfolio-contact{
 	.btn-primary {
@@ -686,7 +689,7 @@ body {
 
 .portfolio-heading {
 	font-size: 18px;
-	margin-bottom: 4em;
+	margin-bottom: 0.5em;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -963,15 +966,15 @@ margin-left: -20px;
 		font-weight: 500;
 	}
 	&.color-2{
-		border-bottom: 2px solid $brand-color-2;
+		border-bottom: 2px solid $brand-black;
 		.icon2{
 			i{
-				color: $brand-color-2;
+				color: $brand-black;
 			}
 		}
 	}
 	&.color-3{
-		border-bottom: 2px solid $brand-color-3;
+		border-bottom: 2px solid  $brand-black;
 		.icon2{
 			i{
 				color: $brand-color-3;
@@ -979,10 +982,10 @@ margin-left: -20px;
 		}
 	}
 	&.color-4{
-		border-bottom: 2px solid $brand-color-4;
+		border-bottom: 2px solid $brand-black;
 		.icon2{
 			i{
-				color: $brand-color-4;
+				color: $brand-black;
 			}
 		}
 	}
@@ -1053,12 +1056,12 @@ margin-left: -20px;
 	}
 	&.color-2{
 		.icon{
-			background: $brand-color-2;
+			background:  $brand-anchor;
 			&:before{
-				border-color: transparent transparent $brand-color-2 transparent;
+				border-color: transparent transparent  $brand-anchor transparent;
 			}
 			&:after{
-				border-color: $brand-color-2 transparent transparent transparent;
+				border-color:  $brand-anchor transparent transparent transparent;
 			}
 		}
 	}

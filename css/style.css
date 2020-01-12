@@ -29,11 +29,11 @@
 *	Edit this section
 *
 * ======================================================= */
-#case-study {
+#case-study-r360 {
   background-color: #2d2d2c;
   color: #fff; }
 
-#case-study .portfolio-heading {
+#case-study-r360 .portfolio-heading {
   color: #fff; }
 
 body {
@@ -58,10 +58,11 @@ a {
     outline: none;
     text-decoration: none !important; }
 
-#case-study p, #case-study .about-desc {
+#case-study-r360 p, #case-study-r360 .about-desc,
+#case-study-tirerack p, #case-study-tirerack .about-desc {
   padding: 2em; }
 
-#case-study .intro-desc {
+#case-study-r360 .intro-desc, #case-study-tirerack .intro-desc {
   text-align: center; }
 
 .r360 {
@@ -284,7 +285,7 @@ figure {
 .arrow {
   width: 40px;
   height: 40px;
-  top: 50%;
+  top: 108%;
   margin: -20px 0 0 -20px;
   -webkit-transform: rotate(130deg);
   border-left: none;
@@ -462,8 +463,8 @@ body.offcanvas {
 .portfolio-about,
 .portfolio-services,
 .portfolio-contact {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   clear: both;
   width: 100%;
   display: block; }
@@ -476,8 +477,8 @@ body.offcanvas {
     .portfolio-about,
     .portfolio-services,
     .portfolio-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 2em;
+      padding-bottom: 2em; } }
 
 .portfolio-contact .btn-primary {
   background: #2d2d2c; }
@@ -490,7 +491,7 @@ body.offcanvas {
 
 .portfolio-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 0.5em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -725,17 +726,17 @@ body.offcanvas {
     color: #000;
     font-weight: 500; }
   .services.color-2 {
-    border-bottom: 2px solid #ec5453; }
+    border-bottom: 2px solid #000; }
     .services.color-2 .icon2 i {
-      color: #ec5453; }
+      color: #000; }
   .services.color-3 {
-    border-bottom: 2px solid #f9bf3f; }
+    border-bottom: 2px solid #000; }
     .services.color-3 .icon2 i {
       color: #f9bf3f; }
   .services.color-4 {
-    border-bottom: 2px solid #a84cb8; }
+    border-bottom: 2px solid #000; }
     .services.color-4 .icon2 i {
-      color: #a84cb8; }
+      color: #000; }
   .services.color-5 {
     border-bottom: 2px solid #2fa499; }
   .services.color-6 {
@@ -790,11 +791,11 @@ body.offcanvas {
       font-weight: 700;
       text-transform: uppercase; }
   .services.color-2 .icon {
-    background: #ec5453; }
+    background: #4b4b4b; }
     .services.color-2 .icon:before {
-      border-color: transparent transparent #ec5453 transparent; }
+      border-color: transparent transparent #4b4b4b transparent; }
     .services.color-2 .icon:after {
-      border-color: #ec5453 transparent transparent transparent; }
+      border-color: #4b4b4b transparent transparent transparent; }
   .services.color-3 .icon {
     background: #f9bf3f; }
     .services.color-3 .icon:before {
