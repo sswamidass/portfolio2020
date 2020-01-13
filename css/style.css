@@ -1079,14 +1079,16 @@ body.offcanvas {
     .project .desc h3 {
       font-family: "gravityregular", sans-serif;
       font-size: 16px;
-      font-weight: 500;
+      font-weight: lighter;
+      font-family: "gravityultralight", serif;
       text-transform: uppercase;
       letter-spacing: 1px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       transition: transform 0.3s, opacity 0.3s;
       -webkit-transform: translate3d(0, -15px, 0);
       transform: translate3d(0, -15px, 0);
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      color: #fff; }
       .project .desc h3 a {
         color: #fff; }
     .project .desc span {

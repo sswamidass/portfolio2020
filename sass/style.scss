@@ -1429,7 +1429,8 @@ margin-left: -20px;
 		h3{
 			font-family: $font-primary;
 			font-size: 16px;
-			font-weight: 500;
+			font-weight: lighter;
+			font-family: $font-secondary;
 			text-transform: uppercase;
 			letter-spacing: 1px;
 			-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1437,6 +1438,7 @@ margin-left: -20px;
 			-webkit-transform: translate3d(0, -15px, 0);
 			transform: translate3d(0, -15px, 0);
 			margin-bottom: 15px;
+			color: $brand-white;
 			a{
 				color: $brand-white;
 			}
