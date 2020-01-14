@@ -443,50 +443,91 @@ figure {
 		padding: 0 1em;
 	}
 }
-.arrow,
-.arrow:before {
+#case-study-tirerack .back-button{
+	border: 1px solid $brand-gray;
+}
+
+.back-button{
+  width:50px;
+  height:50px;
   position: fixed;
+  top: 5%;
   left: 4%;
-  z-index: 99999999;
+  cursor: pointer;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  border-radius:50%;
+  border: 1px solid $brand-white;
+  overflow:hidden;
+  transition:background 0.3s ease;
   @media screen and (max-width: $screen-sm) {
-		left: 7%;
+		left: 7%;;
 	}
-}
+  &.back{
+    .arrow-wrap{
+      left:-50%;
+    }
+  }
+  #case-study-tirerack &:hover{
+    background:#cccccc;
+    .arrow-wrap{
+      span{
+        background:$brand-gray;
+      }
+    }
+  }
+  &:hover{
+    background:#676767;
+    .arrow-wrap{
+      span{
+        background:$brand-white;
+      }
+    }
+  }
+  .arrow-wrap{
+    display:block;
+     cursor: pointer;
+    position:absolute;
+    height:70%;
+    width:70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition:left 0.3s ease;
+    span{
+      height:1px;
+      left:0;
+      top:50%;
+       cursor: pointer;
+      background:$brand-white;
+      position:absolute;
+      display:block;
+      transition:background 0.3s ease;
+    }
 
-.arrow {
-  width: 40px;
-  height: 40px;
-  top: 51px;
-  margin: -20px 0 0 -20px;
-  -webkit-transform: rotate(130deg);
-  border-left: none;
-  border-top: none;
-  border-right: 2px #fff solid;
-  border-bottom: 2px #fff solid;
+    .arrow-part-1{
+      width:100%;
+      transform: translate(0, -50%);
+       cursor: pointer;
+    }
+    .arrow-part-2{
+      width:60%;
+      transform: rotate(-45deg);
+      transform-origin: 0 0;
+       cursor: pointer;
+    }
+    .arrow-part-3{
+      width:60%;
+      transform: rotate(45deg);
+      transform-origin: 0 0;
+       cursor: pointer;
+    }
+  }
 }
+    #case-study-tirerack .back-button .arrow-wrap span{
+    	background:$brand-gray;
+    }
 
-.arrow:before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  border-left: none;
-  border-top: none;
-  border-right: 1px #fff solid;
-  border-bottom: 1px #fff solid;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-name: arrow;
-}
-
-#case-study-tirerack .arrow {
-  border-right: 2px #252525 solid;
-  border-bottom: 2px #252525 solid;
-}
-
-#case-study-tirerack .arrow:before {
-  border-right: 1px #252525 solid;
-  border-bottom: 1px #252525 solid;
-}
 
 @keyframes arrow {
   0% {
