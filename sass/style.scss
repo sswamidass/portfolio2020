@@ -445,8 +445,12 @@ figure {
 }
 .arrow,
 .arrow:before {
-  position: absolute;
-  left: 50%;
+  position: fixed;
+  left: 4%;
+  cursor: pointer;
+  @media screen and (max-width: $screen-sm) {
+		left: 7%;
+	}
 }
 
 .arrow {
@@ -459,14 +463,13 @@ figure {
   border-top: none;
   border-right: 2px #fff solid;
   border-bottom: 2px #fff solid;
+  cursor: pointer;
 }
 
 .arrow:before {
   content: "";
   width: 20px;
   height: 20px;
-  top: 50%;
-  margin: -10px 0 0 -10px;
   border-left: none;
   border-top: none;
   border-right: 1px #fff solid;
@@ -474,6 +477,7 @@ figure {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-name: arrow;
+  cursor: pointer;
 }
 
 #case-study-tirerack .arrow {
