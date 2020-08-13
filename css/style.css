@@ -354,12 +354,18 @@ figure {
     transform: translate(-10px, -10px); } }
 
 #portfolio-hero {
-  /* height: 500px; */
+  min-height: 500px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
   /* margin-bottom: 10em; */
   clear: both; }
+
+@media(max-width:600px){
+  #portfolio-hero {
+    min-height: 300px;}
+}
+
   #portfolio-hero .flexslider {
     border: none;
     z-index: 1;
