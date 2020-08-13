@@ -1103,7 +1103,8 @@ body.offcanvas {
           display: inline;
           padding-right: 5px; }
           .project .desc .con .icon span a {
-            color: #333333;
+            color: #000;
+            font-family: "gravitybold", sans-serif;
             padding: 5px;
             background: rgba(255, 255, 255, 0.5);
             -webkit-border-radius: 4px;
@@ -1143,7 +1144,7 @@ body.offcanvas {
         font-style: 28px;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
-        color: #000; }
+        color: #fff; }
       .project .desc span {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0); } }
