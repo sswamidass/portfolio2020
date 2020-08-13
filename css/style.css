@@ -354,11 +354,11 @@ figure {
     transform: translate(-10px, -10px); } }
 
 #portfolio-hero {
-  min-height: 500px;
+  height: 500px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  /* margin-bottom: 10em; */
   clear: both; }
   #portfolio-hero .flexslider {
     border: none;
@@ -369,8 +369,8 @@ figure {
       overflow: visible; }
       #portfolio-hero .flexslider .slides li {
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom center;
+        background-size: contain;
+        background-position: top center;
         min-height: 400px;
         position: relative; }
     #portfolio-hero .flexslider .flex-control-nav {
