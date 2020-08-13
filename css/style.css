@@ -354,7 +354,7 @@ figure {
     transform: translate(-10px, -10px); } }
 
 #portfolio-hero {
-  height: 500px;
+  /* height: 500px; */
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
