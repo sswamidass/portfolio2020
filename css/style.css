@@ -817,7 +817,7 @@ body.offcanvas {
       left: 0;
       right: 0;
       content: ''; }
-    .services .icon:before {
+    /* .services .icon:before {
       top: -30px;
       width: 0;
       height: 0;
@@ -830,7 +830,7 @@ body.offcanvas {
       height: 0;
       border-style: solid;
       border-width: 30px 50px 0 50px;
-      border-color: #fff transparent transparent transparent; }
+      border-color: #fff transparent transparent transparent; } */
     .services .icon i {
       font-size: 30px;
       color: #fff;
