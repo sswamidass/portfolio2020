@@ -360,10 +360,18 @@ figure {
   float: left;
   /* margin-bottom: 10em; */
   clear: both; }
-
+.persona-mobile{
+  display:none;
+}
 @media(max-width:600px){
   #portfolio-hero {
     min-height: 300px;}
+    .persona{
+      display:none;
+    }
+    .persona-mobile{
+      display:block;
+    }
 }
 
   #portfolio-hero .flexslider {
