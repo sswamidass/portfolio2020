@@ -66,7 +66,8 @@ a {
     
 
 #case-study-r360 p, #case-study-r360 .about-desc,
-#case-study-tirerack p, #case-study-tirerack .about-desc {
+#case-study-tirerack p, #case-study-tirerack .about-desc,
+#case-study-k12 p, #case-study-k12 .about-desc {
   padding: 2em; }
 
 #case-study-r360 .intro-desc, #case-study-tirerack .intro-desc, #case-study-k12 .intro-desc {
