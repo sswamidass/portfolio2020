@@ -70,6 +70,10 @@ a {
 #case-study-k12 p, #case-study-k12 .about-desc {
   padding: 2em; }
 
+  @media screen and (max-width: 768px) {
+    #case-study-r360 .portfolio-heading, #case-study-tirerack .portfolio-heading, #case-study-k12 .portfolio-heading{
+      margin-bottom: 0em; } }
+
 #case-study-r360 .intro-desc, #case-study-tirerack .intro-desc, #case-study-k12 .intro-desc {
   text-align: center; }
 
