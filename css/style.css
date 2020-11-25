@@ -32,7 +32,9 @@
 #case-study-r360 {
   background-color: #2d2d2c;
   color: #fff; }
-
+#case-study-k12 {
+    background-color: #F5F7F9;
+}
 #case-study-r360 a {
   text-decoration: underline; }
 
@@ -67,7 +69,7 @@ a {
 #case-study-tirerack p, #case-study-tirerack .about-desc {
   padding: 2em; }
 
-#case-study-r360 .intro-desc, #case-study-tirerack .intro-desc {
+#case-study-r360 .intro-desc, #case-study-tirerack .intro-desc, #case-study-k12 .intro-desc {
   text-align: center; }
 
 .r360 {
@@ -282,7 +284,7 @@ figure {
       width: 100%;
       padding: 0 1em; } }
 
-#case-study-tirerack .back-button {
+#case-study-tirerack .back-button, #case-study-k12 .back-button {
   border: 1px solid #2d2d2c; }
 
 .back-button {
@@ -303,9 +305,9 @@ figure {
       left: 7%; } }
   .back-button.back .arrow-wrap {
     left: -50%; }
-  #case-study-tirerack .back-button:hover {
+  #case-study-tirerack .back-button:hover, #case-study-k12 .back-button:hover{
     background: #cccccc; }
-    #case-study-tirerack .back-button:hover .arrow-wrap span {
+    #case-study-tirerack .back-button:hover .arrow-wrap span, #case-study-k12 .back-button:hover .arrow-wrap span {
       background: #2d2d2c; }
   .back-button:hover {
     background: #676767; }
@@ -345,7 +347,7 @@ figure {
       transform-origin: 0 0;
       cursor: pointer; }
 
-#case-study-tirerack .back-button .arrow-wrap span {
+#case-study-tirerack .back-button .arrow-wrap span, #case-study-k12 .back-button .arrow-wrap span {
   background: #2d2d2c; }
 
 @keyframes arrow {
