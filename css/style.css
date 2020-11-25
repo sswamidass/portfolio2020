@@ -194,7 +194,7 @@ figure {
         text-transform: uppercase;
         letter-spacing: 1px; }
         #portfolio-aside #portfolio-main-menu ul li a {
-          color: #4b4b4b;
+          color: #fff;
           text-decoration: none;
           position: relative;
           padding: 10px 0;
@@ -223,7 +223,7 @@ figure {
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
           #portfolio-aside #portfolio-main-menu ul li a:hover {
             text-decoration: none;
-            color: black; }
+            color: #fff; }
             #portfolio-aside #portfolio-main-menu ul li a:hover:after {
               visibility: visible;
               -webkit-transform: scaleX(1);
